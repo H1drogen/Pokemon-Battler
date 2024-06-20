@@ -5,7 +5,7 @@ class Pokemon():
         self.hit_points = hit_points
         self.attack_damage = attack_damage
         self.move = move
-
+        
     def use_move(self):
         return f"{self.name} used {self.name}'s {self.move}"
         # "PokemonX used PokemonX's move"
