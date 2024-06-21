@@ -1,5 +1,5 @@
 from src.pokeball import Pokeball
-from src.pokemon import Pokemon
+
 class Trainer(Pokeball):
     def __init__(self):
         pokeball_1 = Pokeball()
@@ -18,6 +18,8 @@ class Trainer(Pokeball):
         )
 
     def throw_pokeball(self, Pokemon):
+        if self.belt[5].is_empty == False:
+            raise Exception('Belt is full')
         for num in range(0, 5):
             if self.belt[num].is_empty() == True:
                 self.belt[num].catch(Pokemon)
