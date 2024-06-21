@@ -8,11 +8,11 @@ class Fire(Pokemon):
         self.weak_against = ['water']
         self.pokemon = Pokemon
 
-    def get_multiplier(self, pokemon):
+    def get_multiplier(self, pokemon_type):
         
-        if pokemon.type in self.strong_against:
+        if pokemon_type.type in self.strong_against:
             return 1.5
-        if pokemon.type in self.weak_against:
+        if pokemon_type.type in self.weak_against:
             return 0.5
         else:
             return 1
