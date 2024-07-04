@@ -13,20 +13,24 @@ def main():
     trainer2 = Trainer()
 
     print('Hello, Please pick pokemon from list below \n')
-    p1 = Electric(Pokemon('Pikachu', 100, 10, 'thunderbolt'))
-    p2 = Fire(Pokemon('Charmander', 44, 17, 'flamethrower'))
-    p3 = Grass(Pokemon('Bulbasaur', 45, 16, 'razor leaf'))
-    p4 = Water(Pokemon('Squirtle', 44, 16, 'surf'))
-    p5 = Normal(Pokemon('Eevee', 55, 18, 'headbutt'))
-    p6 = Water(Pokemon('Vaporeon', 70, 19, 'hydro pump'))
-    p7 = Grass(Pokemon('Leafeon', 65, 17, 'giga drain'))
-    p8 = Fire(Pokemon('Flareon', 65, 20, 'fire blast'))
+    
+    
+    
+    # p1 = Electric(Pokemon('Pikachu', 100, 10, 'thunderbolt'))
+    # p2 = Fire(Pokemon('Charmander', 44, 17, 'flamethrower'))
+    # p3 = Grass(Pokemon('Bulbasaur', 45, 16, 'razor leaf'))
+    # p4 = Water(Pokemon('Squirtle', 44, 16, 'surf'))
+    # p5 = Normal(Pokemon('Eevee', 55, 18, 'headbutt'))
+    # p6 = Water(Pokemon('Vaporeon', 70, 19, 'hydro pump'))
+    # p7 = Grass(Pokemon('Leafeon', 65, 17, 'giga drain'))
+    # p8 = Fire(Pokemon('Flareon', 65, 20, 'fire blast'))
 
-    available_pokemon = [p1, p2, p3, p4, p5, p6, p7, p8]
-    for pokemon in available_pokemon:
-        print(f'{pokemon.pokemon.name}')
+    # available_pokemon = [p1, p2, p3, p4, p5, p6, p7, p8]
+    # for pokemon in available_pokemon:
+    #     print(f'{pokemon.pokemon.name}')
 
     choice = input("\nPlease type choice here: ")
+    # we use choice in our scraping function
     add_pokemon(trainer1, choice, available_pokemon)
 
     opponent = input('\nPick your opponent: ')
