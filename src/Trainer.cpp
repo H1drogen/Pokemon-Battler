@@ -1,6 +1,3 @@
-//
-// Created by Simon Hossain on 16/07/2024.
-//
 
 #include "Trainer.h"
 
