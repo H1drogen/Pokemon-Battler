@@ -76,9 +76,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/simonh/Documents/GitHub/Pokemon-Battler/Pokemon.h">
-			<Option target="C__"/>
-		</Unit>
 		<Unit filename="/Users/simonh/Documents/GitHub/Pokemon-Battler/main.cpp">
 			<Option target="C__"/>
 		</Unit>

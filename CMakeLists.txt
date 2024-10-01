@@ -4,7 +4,6 @@ project(C__)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(C__ main.cpp
-        Pokemon.h
         src/Pokemon.cpp
         src/Pokemon.h
         src/Trainer.cpp
