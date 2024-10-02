@@ -8,10 +8,15 @@ public:
     int hit_points;
     int attack_damage;
     std::string move;
+    
 
     Pokemon(std::string name, int damage);
-    void take_damage(int damage);
-    bool has_fainted();
+    void take_damage(int damage) {
+        hit_points -= damage;
+    }
+    bool has_fainted() {
+        return hit_points <= 0;
+    }
     // Additional methods as needed
 
 };
