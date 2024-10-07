@@ -1,6 +1,6 @@
 
 #include <iostream>
-#include "../Pokemon.h"
+#include "Pokemon.h"
 
 class Battle {
     std::shared_ptr<Pokemon> pokemon1;

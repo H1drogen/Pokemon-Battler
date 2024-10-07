@@ -4,7 +4,7 @@
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
-    Pokemon pikachu("Pikachu", 100, 50, "Thunderbolt");
+    Pokemon pikachu("Pikachu", 100, "Thunderbolt", 30);
     std::cout << "Created a Pokemon: " << pikachu.name << std::endl;
 
     return 0;

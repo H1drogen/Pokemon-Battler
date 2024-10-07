@@ -4,21 +4,18 @@
 
 class Pokemon {
 public:
+
     std::string name;
     int hit_points;
-    int attack_damage;
+    int attack_power;
     std::string move;
-    
 
-    Pokemon(std::string name, int damage);
-    void take_damage(int damage) {
-        hit_points -= damage;
-    }
-    bool has_fainted() {
-        return hit_points <= 0;
-    }
+    Pokemon(std::string name, int hp, std::string move, int power);
+    void take_damage(int damage);
+    bool has_fainted();
+
     // Additional methods as needed
 
 };
 
-#endif //C___POKEMON_H
+#endif
