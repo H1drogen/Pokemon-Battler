@@ -6,6 +6,7 @@ int main() {
 
     Pokemon pikachu("Pikachu", 100, "Thunderbolt", 30);
     std::cout << "Created a Pokemon: " << pikachu.name << std::endl;
+    
 
     return 0;
 }

@@ -2,15 +2,16 @@
 #ifndef C___POKEMON_H
 #define C___POKEMON_H
 
+#include "Move.h"
+
 class Pokemon {
 public:
-
+    std::string pokemon_type;
     std::string name;
     int hit_points;
-    int attack_power;
-    std::string move;
+    Move move;
 
-    Pokemon(std::string name, int hp, std::string move, int power);
+    Pokemon(std::string name, int hp, Move move, int power);
     void take_damage(int damage);
     bool has_fainted();
 

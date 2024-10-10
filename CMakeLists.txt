@@ -10,4 +10,7 @@ add_executable(C__ main.cpp
         src/Trainer.h
         src/Battle.cpp
         src/Pokeball.cpp
-        src/Pokeball.h)
+        src/Pokeball.h
+        src/Move.cpp
+        src/Move.h
+)

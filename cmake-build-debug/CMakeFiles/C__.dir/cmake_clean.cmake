@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/C__.dir/main.cpp.o.d"
   "CMakeFiles/C__.dir/src/Battle.cpp.o"
   "CMakeFiles/C__.dir/src/Battle.cpp.o.d"
+  "CMakeFiles/C__.dir/src/Move.cpp.o"
+  "CMakeFiles/C__.dir/src/Move.cpp.o.d"
   "CMakeFiles/C__.dir/src/Pokeball.cpp.o"
   "CMakeFiles/C__.dir/src/Pokeball.cpp.o.d"
   "CMakeFiles/C__.dir/src/Pokemon.cpp.o"
