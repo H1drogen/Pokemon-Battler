@@ -16,3 +16,5 @@ bool Pokemon::has_fainted() {
     }
     return false;
 }
+
+
