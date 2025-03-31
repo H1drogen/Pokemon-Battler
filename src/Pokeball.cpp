@@ -1,9 +1,9 @@
 
-#include "Pokeball.h"
+#include "include/Pokeball.h"
 
 #include <memory>
 #include <stdexcept>
-#include "Pokemon.h" // Include the base Pokemon class header
+#include "include/Pokemon.h" // Include the base Pokemon class header
 
 
 

@@ -5,12 +5,12 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(C__ main.cpp
         src/Pokemon.cpp
-        src/Pokemon.h
+        src/include/Pokemon.h
         src/Trainer.cpp
-        src/Trainer.h
+        src/include/Trainer.h
         src/Battle.cpp
         src/Pokeball.cpp
-        src/Pokeball.h
+        src/include/Pokeball.h
         src/Move.cpp
-        src/Move.h
+        src/include/Move.h
 )

@@ -122,7 +122,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "src/Pokemon.h",
+			"path" : "src/include/Pokemon.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -133,7 +133,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "src/Trainer.h",
+			"path" : "src/include/Trainer.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -150,7 +150,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "src/Pokeball.h",
+			"path" : "src/include/Pokeball.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -161,7 +161,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "src/Move.h",
+			"path" : "src/include/Move.h",
 			"sourceGroupIndex" : 1
 		}
 	],

@@ -1,5 +1,5 @@
 
-#include "Pokemon.h"
+#include "include/Pokemon.h"
 #include <string>
 
 Pokemon::Pokemon(std::string name, int hit_points, Move move, std::string type)
