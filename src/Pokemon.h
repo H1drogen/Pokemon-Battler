@@ -6,12 +6,12 @@
 
 class Pokemon {
 public:
-    std::string pokemon_type;
+    std::string type;
     std::string name;
     int hit_points;
     Move move;
 
-    Pokemon(std::string name, int hp, Move move, int power);
+    Pokemon(std::string name, int hp, Move move, std::string type);
     void take_damage(int damage);
     bool has_fainted();
 

@@ -2,8 +2,8 @@
 #include "Pokemon.h"
 #include <string>
 
-Pokemon::Pokemon(std::string name, int hit_points, Move move, int attack_power)
-        : name(name), hit_points(hit_points), move(move) {}
+Pokemon::Pokemon(std::string name, int hit_points, Move move, std::string type)
+        : name(name), hit_points(hit_points), move(move), type(type)  {}
 
 
 void Pokemon::take_damage(int damage) {
