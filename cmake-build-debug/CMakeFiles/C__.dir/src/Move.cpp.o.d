@@ -1,6 +1,6 @@
 CMakeFiles/C__.dir/src/Move.cpp.o: \
   /Users/simonh/Documents/GitHub/Pokemon-Battler/src/Move.cpp \
-  /Users/simonh/Documents/GitHub/Pokemon-Battler/src/Move.h \
+  /Users/simonh/Documents/GitHub/Pokemon-Battler/src/include/Move.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/comp.h \

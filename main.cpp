@@ -2,7 +2,7 @@
 #include "src/include/Pokemon.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+
 
     Move thunderbolt("Thunderbolt", 90, "Electric");
     std::cout << "Created a Move: " << thunderbolt.name << std::endl;

@@ -13,4 +13,5 @@ add_executable(C__ main.cpp
         src/include/Pokeball.h
         src/Move.cpp
         src/include/Move.h
+        src/include/Battle.h
 )

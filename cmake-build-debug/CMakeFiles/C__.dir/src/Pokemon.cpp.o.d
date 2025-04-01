@@ -1,6 +1,6 @@
 CMakeFiles/C__.dir/src/Pokemon.cpp.o: \
   /Users/simonh/Documents/GitHub/Pokemon-Battler/src/Pokemon.cpp \
-  /Users/simonh/Documents/GitHub/Pokemon-Battler/src/Pokemon.h \
+  /Users/simonh/Documents/GitHub/Pokemon-Battler/src/include/Pokemon.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__assertion_handler \
@@ -957,4 +957,4 @@ CMakeFiles/C__.dir/src/Pokemon.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/unistd.h \
-  /Users/simonh/Documents/GitHub/Pokemon-Battler/src/Move.h
+  /Users/simonh/Documents/GitHub/Pokemon-Battler/src/include/Move.h
