@@ -15,6 +15,9 @@ public:
     void take_turn();
     std::shared_ptr<Pokemon> determine_winner();
 
+private:
+    std::shared_ptr<Pokemon> pokemon1;
+    std::shared_ptr<Pokemon> pokemon2;
 
 };
 
