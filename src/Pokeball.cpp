@@ -24,6 +24,4 @@ public:
     bool isEmpty() const {
         return !pokemon;
     }
-
-
 };
