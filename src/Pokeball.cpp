@@ -1,5 +1,5 @@
 
-#include "include/Pokeball.h"
+#include "../include/Pokeball.h"
 
 #include <memory>
 #include <stdexcept>

@@ -1,6 +1,6 @@
 
 #include "include/Trainer.h"
-#include "include/Pokemon.h"
+#include "../include/Pokemon.h"
 
 #include <vector>
 #include <memory>
