@@ -1,6 +1,6 @@
 #include <iostream>
 #include "include/Pokemon.h"
-#include "src/include/Trainer.h"
+#include "include/Trainer.h"
 
 int main() {
 

@@ -1,5 +1,5 @@
 
-#include "include/Trainer.h"
+#include "../include/Trainer.h"
 #include "../include/Pokemon.h"
 
 #include <vector>
