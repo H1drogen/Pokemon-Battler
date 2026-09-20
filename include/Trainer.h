@@ -11,7 +11,7 @@ public:
     std::vector<std::shared_ptr<Pokemon>> belt;
 
     Trainer() : belt(6, nullptr) {}
-    void throw_pokeball(std::shared_ptr<Pokemon> pokemon);
+    void catch_pokemon(std::shared_ptr<Pokemon> pokemon);
 };
 
 #endif //C___TRAINER_H

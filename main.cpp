@@ -23,10 +23,10 @@ int main() {
 
     Trainer trainer;
     try {
-        trainer.throw_pokeball(std::make_shared<Pokemon>(pikachu));
+        trainer.catch_pokemon(std::make_shared<Pokemon>(pikachu));
         std::cout << "Pikachu added to trainer's belt." << std::endl;
 
-        trainer.throw_pokeball(std::make_shared<Pokemon>(charizard));
+        trainer.catch_pokemon(std::make_shared<Pokemon>(charizard));
         std::cout << "Charizard added to trainer's belt." << std::endl;
 
     } catch (const std::runtime_error& e) {

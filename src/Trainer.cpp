@@ -11,7 +11,7 @@ public:
 
     Trainer() : belt(6, nullptr) {}
 
-    void throw_pokeball(std::shared_ptr<Pokemon> pokemon) {
+    void catch_pokemon(std::shared_ptr<Pokemon> pokemon) {
         for (auto& slot : belt) {
             if (slot == nullptr) {
                 slot = pokemon;
