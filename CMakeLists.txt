@@ -10,6 +10,8 @@ add_executable(C__
         src/Battle.cpp
         src/Pokeball.cpp
         src/Move.cpp
+        src/PokeApiClient.cpp
+        include/PokeApiClient.h
 )
 
 target_include_directories(C__ PRIVATE
