@@ -6,7 +6,7 @@
 #define C___BATTLE_H
 
 #include <memory>
-#include "../src/include/Pokemon.h"
+#include "Pokemon.h"
 
 class Battle {
     std::shared_ptr<Pokemon> pokemon1;

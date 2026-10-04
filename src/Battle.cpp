@@ -1,6 +1,6 @@
 
 #include <iostream>
-#include "../include/Pokemon.h"
+#include "Pokemon.h"
 
 
 class Battle {
