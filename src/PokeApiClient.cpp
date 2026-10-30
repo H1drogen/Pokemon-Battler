@@ -41,4 +41,20 @@ Pokemon PokeApiClient::fetchPokemon(const std::string& name) {
         throw std::runtime_error("Pokemon was not found");
     }
 
+    const json data = json::parse(response);
+
+    const std::string pokemonName = data.at("name").get<std::string>();
+    const std::string type = data.at("types")
+        .at(0)
+        .at("type")
+        .at("name")
+        .get<std::string>();
+
+    const int hp = data.at("stats")
+        .at(0)
+        .at("base_stat")
+        .get<int>();
+
+    return Pokemon(pokemonName, hp, Move{}, type);
+
 }
